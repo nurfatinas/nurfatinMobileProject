@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Note - Checklist DD - Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>85f9fbe9-7714-41ad-95a7-f5f22a81360d</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>79ebcf6f-08a4-41ec-bbec-ae09ec4100a2</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/createChecklistData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>79ebcf6f-08a4-41ec-bbec-ae09ec4100a2</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>title</value>
+      <variableId>7bd7e28c-84a7-4bbc-b976-74d653d8d8cd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>79ebcf6f-08a4-41ec-bbec-ae09ec4100a2</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>item1</value>
+      <variableId>d89c3256-91b1-4c02-91fd-7ddd93a4f3e5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>79ebcf6f-08a4-41ec-bbec-ae09ec4100a2</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>item2</value>
+      <variableId>6c810b91-db52-48c5-9e23-866b9d30f00c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7bd7e28c-84a7-4bbc-b976-74d653d8d8cd</id>
+      <masked>false</masked>
+      <name>title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d89c3256-91b1-4c02-91fd-7ddd93a4f3e5</id>
+      <masked>false</masked>
+      <name>item1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6c810b91-db52-48c5-9e23-866b9d30f00c</id>
+      <masked>false</masked>
+      <name>item2</name>
+   </variable>
+</TestCaseEntity>

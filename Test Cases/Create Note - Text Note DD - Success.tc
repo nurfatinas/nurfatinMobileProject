@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Note - Text Note DD - Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2646947e-a012-4efa-9a6a-c7e5633d9964</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e81d3e76-1df7-4c8a-97c9-19ae8a34b8cc</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/createTextData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>e81d3e76-1df7-4c8a-97c9-19ae8a34b8cc</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_Title_forNote</value>
+      <variableId>fb2709f9-54a1-4bfa-b516-ed20bdc355c6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e81d3e76-1df7-4c8a-97c9-19ae8a34b8cc</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>input_Text_forNote</value>
+      <variableId>2b9057c5-830a-45b5-9e5b-2bd2735a9b0c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fb2709f9-54a1-4bfa-b516-ed20bdc355c6</id>
+      <masked>false</masked>
+      <name>input_Title_forNote</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2b9057c5-830a-45b5-9e5b-2bd2735a9b0c</id>
+      <masked>false</masked>
+      <name>input_Text_forNote</name>
+   </variable>
+</TestCaseEntity>
